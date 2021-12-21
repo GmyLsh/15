@@ -1,0 +1,30 @@
+{
+    "name": "红外遥控1.5",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "OSOYOO_IR": "github:osoyoo/osoyoo_ir_v2.0#ddef9a803b11824328ceabf17b04f6f389f1823c"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.67",
+        "tag": "v3.0.67",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/b1dd6c3bcb9b2df57dfdd0bc4442971d81a1859d",
+        "target": "4.0.16",
+        "pxt": "6.0.39",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
